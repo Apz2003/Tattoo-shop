@@ -178,7 +178,7 @@ export default function ShopPage() {
               </a>
               
               <Link 
-                href="/contact" 
+                href="/services" 
                 className="flex items-center justify-center gap-3 border-2 border-green-600 hover:bg-green-900/20 text-green-400 hover:text-green-300 font-bold py-4 px-6 rounded-full transition-all hover:scale-105"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">

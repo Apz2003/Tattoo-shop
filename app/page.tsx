@@ -8,7 +8,7 @@ export default function Home() {
       id: 1,
       title: "Custom Design",
       description: "Personalized tattoo artwork",
-      image: "/tattoo1.jpg",
+      image: "/tattoo4.jpg",
     },
     {
       id: 2,
@@ -26,7 +26,7 @@ export default function Home() {
       id: 4,
       title: "Fine Line Work",
       description: "Detailed fine line tattooing",
-      image: "/tattoo4.jpg", // If you have more images
+      image: "/tattoo1.jpg", // If you have more images
     },
   ];
 
@@ -65,7 +65,7 @@ export default function Home() {
           {/* Buttons */}
           <div className="flex flex-wrap gap-4 mt-8">
             <Link 
-              href="/contact" 
+              href="services" 
               className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full transition-transform hover:scale-105 shadow-lg shadow-green-900/30"
             >
               Book Appointment
@@ -238,7 +238,7 @@ export default function Home() {
             className="inline-flex items-center gap-4 bg-gradient-to-r from-green-700 to-green-800 hover:from-green-600 hover:to-green-700 text-white font-bold py-4 px-10 rounded-full transition-all hover:scale-105 shadow-lg shadow-green-900/30"
           >
             
-            <span className="text-lg">Visit Our Shop & Book Appointment</span>
+            <span className="text-lg"> Book Appointment</span>
           </Link>
         </div>
       </section>
